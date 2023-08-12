@@ -26,7 +26,6 @@ namespace MFA_assignment.Models
             public bool Sent { get; set; }
             public bool Valid { get; set; }
             public string ErrorMessage { get; set; }
-            // this property is for testing only
             public string GetThisCodeonPhone { get; set; }
         }
 
